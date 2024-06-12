@@ -7,9 +7,9 @@
   <body>
     <h1><a href="first.html">Web sever</a></h1>
     <ol>
-      <li><a href="second,html">HTML</a></li>
-      <li><a href="third,html">CSS</a></li>
-      <li><a href="fourth,html">JavaScript</a></li>
+      <li><a href="second.html">HTML</a></li>
+      <li><a href="third.html">CSS</a></li>
+      <li><a href="fourth.html">JavaScript</a></li>
     </ol>
     <h2>링크만 달랑 적어 제출한 이유</h2>
     <p>
