@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Web sever</title> 
+    <title>Web sever에 대하여</title> 
     <meta charset="utf-8" />
   </head>
   <body>
