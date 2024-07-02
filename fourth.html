@@ -2,15 +2,55 @@
 <html>
   <head>
     <title>JavaScript</title>
+    <style>
+      body{
+        margin: 0;
+       }
+       #active {
+         color: red;
+       }
+       .saw{
+         color: darkgray;
+       }
+       a{
+         color: black;
+         text-emphasis: none;
+       }
+       h1{
+         font-size: 50px;
+         text-align: center;
+         border-bottom: 1px solid black;
+         margin: 0;
+         padding: 20px;
+       }
+       ol{
+        border-right: 1px solid black;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #grid ol{
+        padding-left:33px;
+      }
+      #grid #article{
+        padding-left:25px;
+      }
+    </style>
     <meta charset="utf-8" />
   </head>
   <body>
-    <h1><a href="first.html">Web sever</a></h1>
+    <h1><a href="first.html">WEB</a></h1>
+    <div id="grid">
     <ol>
-      <li><a href="second.html">HTML</a></li>
-      <li><a href="third.html">CSS</a></li>
-      <li><a href="fourth.html">JavaScript</a></li>
+      <li><a href="second.html"class="saw">HTML</a></li>
+      <li><a href="third.html"class="saw">CSS</a></li>
+      <li><a href="fourth.html"class="saw" id="active">JavaScript</a></li>
     </ol>
+    <div id="article">
     <h2>JavaScript</h2>
     <p>
       JavaScript란 웹 사이트에서 복잡한 기능을 구현할 수 있는 프로그래밍
@@ -26,5 +66,8 @@
         만들어서 제공</strong
       >하기 떄문입니다.
     </p>
+  </div>
+</div>
   </body>
-</html>
+  </html>
+
