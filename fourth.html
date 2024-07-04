@@ -51,7 +51,10 @@
       <li><a href="fourth.html"class="saw" id="active">JavaScript</a></li>
     </ol>
     <div id="article">
-    <h2>JavaScript</h2>
+    <a href="java script image.svg" alt = "It's java script">
+      <img src="https://i.namu.wiki/i/14S4QF3FZTYTIBUUjpTdG6pMan4Rcpukx6iDoATT6-Y5zlkvkwqdQdc2jPU5NBm-OMze-G6XGJWJ1v6MCZpE56j3Bjun2mIrCOLvGsWHb1yukKCV77l8iCbY6u6OBbOK3VBUYOgn0xNVXjOzNzBMCA.svg"
+      style="float:left;"  width="150" height="200">
+    </a> 
     <p>
       JavaScript란 웹 사이트에서 복잡한 기능을 구현할 수 있는 프로그래밍
       언어입니다. HTML과 CSS처럼 단순하게 정보를 표시하는 것이 아닌 콘텐츠
@@ -61,13 +64,35 @@
       수 있는 언어라는 말입니다. 그리고 또한
       <strong>API(애플리케이션 프로그래밍 인터페이스 AI)</strong>라는 기능으로
       JavaScript에 날개를 달아주었습니다. 왜냐하면
-      <strong
-        >개발자가 구현하기 어렵거나 불가능한 프로그램들을 구현할 수 있도록 미리
-        만들어서 제공</strong
-      >하기 떄문입니다.
+      <strong>개발자가 구현하기 어렵거나 불가능한 프로그램들을 구현할 수 있도록 미리 만들어서 제공</strong>하기 떄문입니다. 
+    </p>
+    <p>
+      이 댓글창에 구현하는데에 시간을 제일 많이 잡아먹어서 구현 해본게 적어졌습니다. HTML로 베이스를 짜여 댓글 쓰기라는 행동과 배너를 CSS와 JavaScript에 분배하여 HTML을 구성하여 각각 언어들에 맞게 코딩을 하면 이렇게 댓글창이 만들어지게 됩니다. 하지만 서버가 구동이 되지 않기 때문에 저장은 안되고 당일 쓴것만 화면에 표기 되기 때문에 새로고침을 하는 순간 쓴 댓글은 사라지게 됩니다.
     </p>
   </div>
 </div>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<link rel="stylesheet" href="comment.css" />
+</head>
+<body>
+<div>
+  <ul class="comment">
+    <li class="comment-form">
+      <form id="commentFrm">
+        <h4>댓글쓰기 <span></span></h4>
+        <span class="ps_box">
+          <input type="text" placeholder="댓글 내용을 입력해주세요." class="int" name="content" />
+        </span>
+        <input type="submit" class="btn" value="등록" />
+      </form>
+    </li>
+    <li id="comment-list"></li>
+  </ul>
+</div>
+<script src="comment.js"></script>
   </body>
   </html>
 
