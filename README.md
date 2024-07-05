@@ -50,7 +50,6 @@
     <meta charset="utf-8" />
   </head>
   <body>
-
     <h1><a href="first.html">WEB</a></h1>
     <div id="grid">
     <ol>
